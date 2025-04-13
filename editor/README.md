@@ -1,7 +1,9 @@
 # Discord 猜歌機器人 - 題庫編輯器
-此為編輯器的說明文件，猜歌機器人本體相關介紹請左轉 https://github.com/MaugouMio/SongGuesser/blob/master/README.md
+
+此為編輯器的說明文件，猜歌機器人本體相關介紹請左轉 [MaugouMio@SongGuesser/README.md](https://github.com/MaugouMio/SongGuesser/blob/master/README.md)
 
 ## 介面說明
+
 ![介面示意圖](https://i.meee.com.tw/2m3vhnT.png)
 
 - **[A]** 當前開啟的檔案名稱，有未儲存的操作時會有 `*` 標示
@@ -44,15 +46,18 @@
 	- `向左/右移動`：將當前選擇中的片段向左/右移動排序
 
 ### 其他快捷鍵
+
 - `CTRL + Z`：復原 (UNDO)
 - `CTRL + Y`：重做 (REDO)
 
 ## 注意事項
-為加速載入速度，歌曲會在初次播放時暫存到 cache 資料夾<br>
-隨著播放過的歌曲數量增加，該資料夾的容量也會逐漸增加<br>
+
+為加速載入速度，歌曲會在初次播放時暫存到 cache 資料夾  
+隨著播放過的歌曲數量增加，該資料夾的容量也會逐漸增加  
 若 cache 容量過大，可以在編輯器關閉的狀態下刪除其中的檔案或整個資料夾
 
 ## 專案測試環境
+
 - Windows 10
 - Python 3.13.3
 - 相關套件安裝可在資料夾中執行 `pip3 install -r requirements.txt`
